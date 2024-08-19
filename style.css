@@ -1,0 +1,37 @@
+body {
+  background-image: url(./banner-image1.jpg);
+  background-repeat: no-repeat;
+  color: white;
+}
+button {
+  background-color: antiquewhite;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: auto;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+.title-text {
+  margin-top: 14rem;
+}
+.title-text h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.button-body {
+  text-align: center;
+}
+.btn1,
+.btn2,
+.btn3 {
+  font-size: 2rem;
+}
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
